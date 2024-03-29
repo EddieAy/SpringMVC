@@ -21,9 +21,18 @@
 
 
 <form action="${pageContext.request.contextPath}/login.action">
-    用户名:<input type="text" name="username">
-    密码：<input type="password" name="password">
+    用户名:<input type="text" name="username"><br>
+    密码：<input type="password" name="password"><br>
+    登录<input type="submit"><br>
 </form>
+
+
+<h1>
+    ${msg}
+</h1>
+<h1>
+    ${msg2}
+</h1>
 
 </body>
 </html>

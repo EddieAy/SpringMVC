@@ -39,7 +39,7 @@ public class StartAction {
     @RequestMapping("/five.action")
     public String five(){
         System.out.println("随便跳");
-        return "forward:/fore/test.jsp";
+        return "forward:/fore/login.jsp";
     }
 
     @RequestMapping("/six.action")

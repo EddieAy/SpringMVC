@@ -12,5 +12,8 @@
 </head>
 <body>
     <h1>This is vip</h1>
+
+    <h1>欢迎, ${sessionScope.username}</h1>
+
 </body>
 </html>
